@@ -16,7 +16,7 @@ A secure Ethereum crowdfunding smart contract built with Solidity and Hardhat.
 
 ## Testing
 - Comprehensive unit and edge-case tests
-- 19 passing tests (Hardhat + Mocha)
+- 20 passing tests (Hardhat + Mocha)
 - Tests cover funding, refunds, cancellation, and collection logic
 
 ## Tech Stack
