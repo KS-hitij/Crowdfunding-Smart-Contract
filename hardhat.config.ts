@@ -4,6 +4,7 @@ import "dotenv/config";
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY || "";
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL || "";
+const apiKey = process.env.ETHERSCAN_API_KEY || "";
 
 export default defineConfig({
   plugins: [hardhatToolboxMochaEthersPlugin],
@@ -39,4 +40,7 @@ export default defineConfig({
       accounts: [PRIVATE_KEY],
     },
   },
+  verify:{
+    etherscan:{apiKey:apiKey}
+  }
 });
