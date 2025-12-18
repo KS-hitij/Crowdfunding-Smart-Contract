@@ -31,3 +31,10 @@ Install dependencies:
 
 ```bash
 pnpm install
+
+## Deployed Contract (Sepolia Testnet)
+
+You can interact with the deployed Crowdfund contract here:
+
+- Contract address: [0x42495A683C5C084d0A6B9F5e545e274cB5e75748](https://sepolia.etherscan.io/address/0x42495A683C5C084d0A6B9F5e545e274cB5e75748)
+- Network: Sepolia
